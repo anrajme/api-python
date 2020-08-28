@@ -13,7 +13,7 @@ number_aus=people['number']
 Message = 'Hi Fun fact, Number of people in space right now is ' +str(number_aus)
 
 message = client.messages.create(
-	to="+918867731006",
-	from_="+12057404455",
+	to="+1xxxxxxx",
+	from_="+1xxxxxxx",
 	body=Message)
 print(message.sid) 
